@@ -1,6 +1,18 @@
-*.bak
-*.tmp
-*.log
-*.old
-Thumbs.db
+﻿# Node / frontend
+node_modules/
+dist/
+build/
+.svelte-kit/
+.vite/
+# Python
+.venv/
+__pycache__/
+*.pyc
+# IDE / SO
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
+# Segredos
+.env
+*.env
